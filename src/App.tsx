@@ -1,7 +1,7 @@
 import { useState } from "react";
-import UsersTable, { User } from "./components/UsersTable";
+import UsersTable, { User } from "./components/userTable";
 import UserForm from "./components/UserForm";
-import { initialUsers } from "./userData"; // Update the path as needed
+import { initialUsers } from "./components/userData"; // Update the path as needed
 
 function App() {
   const [users, setUsers] = useState<User[]>(initialUsers);
